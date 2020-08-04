@@ -48,7 +48,13 @@ This is the place where I build stuff and break things :wizard:
 [<img align="left" alt="Adobe XD" width="26px" src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/Adobe_XD_CC_icon.svg/512px-Adobe_XD_CC_icon.svg.png" />][niilante]
 
 <br />
-<br />
+
+
+# StackOverflow Activity
+<!-- STACKOVERFLOW:START -->
+<!-- STACKOVERFLOW:END -->
+
+<br /><br />
 
 ---
 
