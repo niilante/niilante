@@ -1,0 +1,17 @@
+name: Update stats
+
+on:
+  schedule:
+    # Runs at 12am UTC
+    - cron: '0 0 * * *'
+  workflow_dispatch:
+
+jobs:
+  update-readme:
+    name: Update Readme with Metrics
+    runs-on: ubuntu-latest
+    steps:
+      with:
+        GH_TOKEN: ${{ secrets.GH_TOKEN}}
+        USERNAME: niilante
+        SHOW_TITLE: false
