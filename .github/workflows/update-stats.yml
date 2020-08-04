@@ -1,17 +1,17 @@
-name: Update stats
-
+name: Latest stack overflow activity
 on:
   schedule:
     # Runs at 12am UTC
     - cron: '0 0 * * *'
-  workflow_dispatch:
 
 jobs:
-  update-readme:
-    name: Update Readme with Metrics
+  update-readme-with-stack-overflow:
+    name: Update this repo's README with latest activity from StackOverflow
     runs-on: ubuntu-latest
     steps:
-      with:
-        GH_TOKEN: ${{ secrets.GH_TOKEN}}
-        USERNAME: niilante
-        SHOW_TITLE: false
+      - uses: actions/checkout@v2
+      - uses: gautamkrishnar/blog-post-workflow@master
+        with:
+          comment_tag_name: "STACKOVERFLOW"
+          commit_message: "Updated readme with the latest stackOverflow data"
+          feed_list: "https://stackoverflow.com/feeds/user/6050295"
