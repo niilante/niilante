@@ -4,7 +4,7 @@ This is the place where I build stuff and break things :wizard:
 ## I'm a Son, Developer, and Teacher!
 - 🔭 I’m currently working on something cool :wink:
 - 🌱 I’m currently learning AI, ML and Blockchain Technologies
-- 💬 Ask me about anything related to Javascript/Typescript/Python
+- 💬 Ask me about anything related to PHP/Javascript/Typescript/Python/Laravel/UI & UX Prototyping
 - 📫 How to reach me: [@theniilante](https://www.linkedin.com/in/theniilante/)
 - ⚡ Fun fact: I :heart: :dog:s
 
