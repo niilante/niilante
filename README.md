@@ -60,7 +60,7 @@ This is the place where I build stuff and break things :wizard:
 
 ---
 
-<img align="left" alt="niilante's Github Stats" src="https://github-readme-stats.vercel.app/api?username=niilante&show_icons=true&theme=dark&count_private=true&hide_border=true" />
+<img align="left" alt="niilante's Github OpenSource Stats" src="https://github-readme-stats.vercel.app/api?username=niilante&show_icons=true&theme=dark&count_private=true&hide_border=true" />
 
 [website]: https://niilante.com
 [twitter]: https://twitter.com/niilante
