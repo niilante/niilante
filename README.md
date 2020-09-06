@@ -1,5 +1,5 @@
 ### Hi there, I'm niilante 👋
-This is the place where I build stuff and break things :gemini:
+This is where I build stuff and break things :gemini:
 
 ## I'm a Son, Developer, and Teacher!
 - 🔭 I’m currently working on something cool :wink:
