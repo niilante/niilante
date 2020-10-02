@@ -18,6 +18,12 @@ This is where I build stuff and break things :gemini:
 
 <br />
 
+### My Data Science Activity
+<!-- Data Science:START -->
+- [Member of Solaris Lab in the NASA Space Apps 2018 Challenge](https://2018.spaceappschallenge.org/challenges/can-you-build/design-based-nature-fusion/teams/solaris-lab/members)
+<!-- Data Science:END -->
+<br />
+
 ### My StackOverflow Activity
 <!-- STACKOVERFLOW:START -->
 - [Laravel, How to get the current HTTP status code in blade view error page eg. 404.blade.php](https://stackoverflow.com/questions/63531920/laravel-how-to-get-the-current-http-status-code-in-blade-view-error-page-eg-40)
