@@ -20,6 +20,10 @@ This is where I build stuff and break things :gemini:
 
 ### My Data Science/ Machine Learning/ Artificial Intelligence Activities
 <!-- Data Science:START -->
+- [Member of Ghana NLP](https://github.com/ghananlp)
+
+- [Member of FaceBook Developer Circles: Accra](https://github.com/developercirclesaccra)
+
 - [Member of Solaris Lab in the NASA Space Apps 2018 Challenge](https://2018.spaceappschallenge.org/challenges/can-you-build/design-based-nature-fusion/teams/solaris-lab/members)
 <!-- Data Science:END -->
 <br />
