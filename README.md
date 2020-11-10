@@ -30,7 +30,7 @@ This is where I build stuff and break things :gemini:
 
 ### My StackOverflow Activity
 <!-- STACKOVERFLOW:START -->
-- [How To Setup Laravel Breeze](https://stackoverflow.com/questions/64769404/how-to-setup-laravel-breeze)
+- [How To Setup Laravel Breeze [closed]](https://stackoverflow.com/questions/64769404/how-to-setup-laravel-breeze)
 - [Answer by niilante for How To Setup Laravel Breeze](https://stackoverflow.com/questions/64769404/how-to-setup-laravel-breeze/64769406#64769406)
 - [Laravel, How to get the current HTTP status code in blade view error page eg. 404.blade.php](https://stackoverflow.com/questions/63531920/laravel-how-to-get-the-current-http-status-code-in-blade-view-error-page-eg-40)
 - [Answer by niilante for Laravel, How to get the current HTTP status code in blade view error page eg. 404.blade.php](https://stackoverflow.com/questions/63531920/laravel-how-to-get-the-current-http-status-code-in-blade-view-error-page-eg-40/63531921#63531921)
