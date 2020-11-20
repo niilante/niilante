@@ -1,7 +1,7 @@
 ### Hi there, I'm niilante 👋
 This is where I build stuff and break things :gemini:
 
-## I'm a Son, Co-Founder, Software Engineer, AI/ML Researcher, and Organizer & Project Facilitator!
+## I'm a Son, Co-Founder, Software Engineer, AI/ML Researcher, Organizer & Project Facilitator!
 - 🔭 I’m currently working on something cool :wink:
 - 🌱 I’m currently learning AI, ML and Blockchain Technologies
 - 💬 Ask me about anything related to PHP/Javascript/Typescript/Python/Laravel/UI & UX Prototyping
