@@ -37,7 +37,7 @@ This is where I build stuff and break things :gemini:
 - [How to concatenate string to a $variable in blade?](https://stackoverflow.com/questions/62605636/how-to-concatenate-string-to-a-variable-in-blade)
 <!-- STACKOVERFLOW:END -->
 
-### Some Languages and Tools I use:
+### Some Stacks I use:
 
 [<img align="left" alt="Visual Studio Code" width="26px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/visual-studio-code/visual-studio-code.png" />][niilante]
 [<img align="left" alt="HTML5" width="26px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/html/html.png" />][niilante]
