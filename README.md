@@ -15,7 +15,7 @@ This is where I build stuff and break things :gemini:
 [<img align="left" alt="niilante | Twitter" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/twitter.svg" />][twitter] -->
 [<img align="left" alt="theniilante | LinkedIn" width="22px" targer="_blank" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/linkedin.svg" />][linkedin]
 [<img align="left" alt="r6click | Instagram" width="22px" targer="_blank" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/instagram.svg" />][instagram]
-
+[![Contact me on Codementor](https://www.codementor.io/m-badges/richardniilantelawson/book-session.svg)](https://www.codementor.io/@richardniilantelawson?refer=badge)
 <br />
 
 ### My Data Science/ Machine Learning/ Artificial Intelligence Activities
