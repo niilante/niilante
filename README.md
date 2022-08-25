@@ -1,5 +1,5 @@
 ### Hi there, I'm niilante 👋
-This is where I build stuff and break things :gemini:
+This is where I break stuff and build things :gemini:
 
 ## A Technical Co-Founder, Software Engineer, AI/ML Researcher, Event Organizer & Project Facilitator!
 - 🔭 I’m currently working on something cool :wink:
