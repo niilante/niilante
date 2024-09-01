@@ -81,9 +81,6 @@ This is where I break stuff and build things :gemini:
 [niilante]: https://linkedin.com/in/theniilante
 
 
-<br /><br />
-
----
 
 ![](https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=niilante&theme=github_dark)
 ![](https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=niilante&theme=github_dark)
