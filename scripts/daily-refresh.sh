@@ -1,6 +1,10 @@
 #!/usr/bin/env bash
 # Regenerate the profile cards from live GitHub data and push if anything moved.
 #
+# NOTE: keep this clone outside ~/Desktop, ~/Documents and ~/Downloads. launchd runs
+# with no TCC grant, so a script under those folders dies with "Operation not permitted"
+# (exit 126) however correct it looks when run from a terminal. ~/Developer is fine.
+#
 # Run by hand:      ./scripts/daily-refresh.sh
 # Schedule it:      copy the plist below to ~/Library/LaunchAgents/com.niilante.profile-refresh.plist
 #                   launchctl bootstrap gui/$(id -u) ~/Library/LaunchAgents/com.niilante.profile-refresh.plist
