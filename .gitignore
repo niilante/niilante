@@ -1,3 +1,7 @@
 /.history
 /.github/workflows/blog-post-workflow.yml
 secrets
+# stills from `node scripts/generate.mjs --static`, for layout review only
+/.preview
+node_modules
+.DS_Store

@@ -1,90 +1,77 @@
-### Hi there, I'm niilante 👋
-This is where I break stuff and build things :gemini:
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/terminal-dark.svg">
+  <img alt="Terminal: whoami prints Richard Nii Lante Lawson, technical founder at Typeres, co-founder of AiMlCamp, Accra, Ghana" src="assets/terminal-light.svg" width="100%">
+</picture>
 
-## A Technical Founder, Software Engineer, AI/ML Researcher, Event Organizer & Project Facilitator!
-- 🔭 I’m currently working on something cool :wink:
-- 🌱 I’m currently learning AI, ML and Blockchain Technologies
-- 💬 Ask me about anything related to PHP/Javascript/Typescript/Python/Laravel/UI & UX Prototyping
-- 📫 How to reach me: [@theniilante](https://www.linkedin.com/in/theniilante/)
-- ⚡ Fun fact: I :heart: :dog:s
+hi, I'm Richard.
+I'm a technical founder in Accra. I build **[Typeres](https://typeres.com)** — print ordering that runs from artwork to delivery — and I co-founded **[AiMlCamp](https://github.com/aimlcamp)**, a community of AI/ML builders in Ghana. I'm also in **[Ghana NLP](https://github.com/ghananlp)**, working on open language technology for Twi, Ewe, Ga and Dagbani.
 
-### Connect with me:
+Most of what I ship lives behind a login where nobody can see it, so this page is the receipt: what exists, what it does, and what I haven't proven yet.
 
-<!-- [<img align="left" alt="niilante.com" width="22px" src="https://raw.githubusercontent.com/iconic/open-iconic/master/svg/globe.svg" />][website] -->
-<!-- [<img align="left" alt="niilante | YouTube" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/youtube.svg" />][youtube]
-[<img align="left" alt="niilante | Twitter" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/twitter.svg" />][twitter] -->
-[<img align="left" alt="theniilante | LinkedIn" width="22px" targer="_blank" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/linkedin.svg" />][linkedin]
-[<img align="left" alt="r6click | Instagram" width="22px" targer="_blank" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/instagram.svg" />][instagram]
-[![Contact me on Codementor](https://www.codementor.io/m-badges/richardniilantelawson/book-session.svg)](https://www.codementor.io/@richardniilantelawson?refer=badge)
-<br />
+**[typeres.com](https://typeres.com)** &nbsp;·&nbsp; **[LinkedIn](https://www.linkedin.com/in/theniilante/)** &nbsp;·&nbsp; **[Codementor](https://www.codementor.io/@richardniilantelawson)**
 
-### My Data Science/ Machine Learning/ Artificial Intelligence Activities
-<!-- Data Science:START -->
-- [Member of Ghana NLP](https://github.com/ghananlp)
+<br>
 
-- [Co-Founder of AiMlCamp](https://github.com/aimlcamp)
+<a href="https://typeres.com">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/typeres-dark.svg">
+    <img alt="Typeres: print ordering that runs from artwork to delivery, for Ghanaian print vendors and their clients" src="assets/typeres-light.svg" width="100%">
+  </picture>
+</a>
+Getting flyers, shirts or banners printed in Ghana usually means artwork over WhatsApp, prices over the phone, and hoping the job that comes back is the job you asked for.
+Typeres turns that into a pipeline: upload artwork, get a price, pick a verified vendor, then watch the job move through **brief → proof → payment held → delivery**, with the file, the approval and the courier attached to the same order.
+It's the product my own engineering rules get applied to first. **[typeres.com](https://typeres.com)**
 
-- [Member of FaceBook Developer Circles: Accra](https://github.com/developercirclesaccra)
+<br>
 
-- [Member of Solaris Lab in the NASA Space Apps 2018 Challenge](https://2018.spaceappschallenge.org/challenges/can-you-build/design-based-nature-fusion/teams/solaris-lab/members)
-<!-- Data Science:END -->
-<br />
+### Community work
 
-### My StackOverflow Activity
-<!-- STACKOVERFLOW:START -->
-- [Answer by niilante for Docker Laravel Nginx, storage goes to 404 page](https://stackoverflow.com/questions/66252874/docker-laravel-nginx-storage-goes-to-404-page/66340506#66340506)
-- [Laravel, How to get the current HTTP status code in blade view error page eg. 404.blade.php](https://stackoverflow.com/questions/63531920/laravel-how-to-get-the-current-http-status-code-in-blade-view-error-page-eg-40)
-- [Answer by niilante for Laravel, How to get the current HTTP status code in blade view error page eg. 404.blade.php](https://stackoverflow.com/questions/63531920/laravel-how-to-get-the-current-http-status-code-in-blade-view-error-page-eg-40/63531921#63531921)
-- [Answer by niilante for How to concatenate string to a $variable in blade?](https://stackoverflow.com/questions/62605636/how-to-concatenate-string-to-a-variable-in-blade/62605637#62605637)
-- [How to concatenate string to a $variable in blade?](https://stackoverflow.com/questions/62605636/how-to-concatenate-string-to-a-variable-in-blade)
-<!-- STACKOVERFLOW:END -->
+<p>
+  <a href="https://github.com/ghananlp"><picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/tile-ghananlp-dark.svg">
+    <img alt="Ghana NLP: open-source language technology for Ghanaian languages" src="assets/tile-ghananlp-light.svg" width="49%">
+  </picture></a>
+  <a href="https://github.com/aimlcamp"><picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/tile-aimlcamp-dark.svg">
+    <img alt="AiMlCamp: a community of AI and ML builders in Ghana" src="assets/tile-aimlcamp-light.svg" width="49%">
+  </picture></a>
+</p>
 
-### Some Stacks I use:
+<br>
 
-[<img align="left" alt="Visual Studio Code" width="26px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/visual-studio-code/visual-studio-code.png" />][niilante]
-[<img align="left" alt="HTML5" width="26px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/html/html.png" />][niilante]
-[<img align="left" alt="CSS3" width="26px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/css/css.png" />][niilante]
-[<img align="left" alt="Sass" width="26px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/sass/sass.png" />][niilante]
-[<img align="left" alt="JavaScript" width="26px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/javascript/javascript.png" />][niilante]
-[<img align="left" alt="React" width="26px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/react/react.png" />][niilante]
-[<img align="left" alt="Gatsby" width="26px" src="https://raw.githubusercontent.com/github/explore/e94815998e4e0713912fed477a1f346ec04c3da2/topics/gatsby/gatsby.png" />][niilante]
-[<img align="left" alt="GraphQL" width="26px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/graphql/graphql.png" />][niilante]
-[<img align="left" alt="Node.js" width="26px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/nodejs/nodejs.png" />][niilante]
-[<img align="left" alt="Deno" width="26px" src="https://raw.githubusercontent.com/github/explore/361e2821e2dea67711cde99c9c40ed357061cf27/topics/deno/deno.png" />][niilante]
-[<img align="left" alt="SQL" width="26px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/sql/sql.png" />][niilante]
-[<img align="left" alt="MySQL" width="26px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/mysql/mysql.png" />][niilante]
-[<img align="left" alt="MongoDB" width="26px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/mongodb/mongodb.png" />][niilante]
-[<img align="left" alt="Git" width="26px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/git/git.png" />][niilante]
-[<img align="left" alt="GitHub" width="26px" src="https://raw.githubusercontent.com/github/explore/78df643247d429f6cc873026c0622819ad797942/topics/github/github.png" />][niilante]
-[<img align="left" alt="Terminal" width="26px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/terminal/terminal.png" />][niilante]
-[<img align="left" alt="MySQL" width="26px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/mysql/mysql.png" />][niilante]
-[<img align="left" alt="React" width="26px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/react/react.png" />][niilante]
-[<img align="left" alt="Python" width="26px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/python/python.png" />][niilante]
-[<img align="left" alt="Android" width="26px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/android/android.png" />][niilante]
-[<img align="left" alt="Docker" width="26px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/docker/docker.png" />][niilante]
-[<img align="left" alt="Laravel" width="26px" src="https://raw.githubusercontent.com/github/explore/56a826d05cf762b2b50ecbe7d492a839b04f3fbf/topics/laravel/laravel.png" />][niilante]
-[<img align="left" alt="Linux" width="26px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/linux/linux.png" />][niilante]
-[<img align="left" alt="PHP" width="26px" src="https://raw.githubusercontent.com/github/explore/ccc16358ac4530c6a69b1b80c7223cd2744dea83/topics/php/php.png" />][niilante]
-[<img align="left" alt="Ubuntu" width="26px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/ubuntu/ubuntu.png" />][niilante]
-[<img align="left" alt="Adobe XD" width="26px" src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/Adobe_XD_CC_icon.svg/512px-Adobe_XD_CC_icon.svg.png" />][niilante]
+### How the work gets checked
 
-<br /><br />
+I don't trust a green test run I haven't watched fail first. Every piece of work I run ends with a numbered ticket, a stated verdict and an explicit list of what was **not** verified — on a client's system exactly as on my own product. It is slower, and it's the only way I can say "done" without guessing.
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/rules-dark.svg">
+  <img alt="Four rules I ship under: the test comes first, hash before and after, every pass ends in a verdict, say what you did not verify" src="assets/rules-light.svg" width="100%">
+</picture>
+
+<br>
+
+### What I actually reach for
+
+Laravel and Livewire do most of the work. Everything else shows up when the job needs it, not because it was new that month.
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/stack-dark.svg">
+  <img alt="Stack: PHP, Laravel, Livewire, MySQL, Blade and TypeScript daily; Node, Python, Docker, Nginx, Cloudflare and Linux when needed; Vue, Java, Spring, SQL and Git from school" src="assets/stack-light.svg" width="100%">
+</picture>
+
+<br>
+
+### This year, itemised
+
+Nearly every contribution I make lands in a private repository — a product, its tests, its tickets. The public commit count has never been the interesting number.
+
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/receipt-dark.svg">
+    <img alt="This year itemised: 642 contributions, 632 of them in private repos, 2,285 public repos, 72 originals, on GitHub since 2015" src="assets/receipt-light.svg" width="460">
+  </picture>
+</p>
 
 ---
 
-<img align="left" alt="niilante's Github OpenSource Stats" src="https://github-readme-stats.vercel.app/api?username=niilante&show_icons=true&theme=dark&count_private=true&hide_border=true" />
-
-[website]: https://niilante.com
-[twitter]: https://twitter.com/niilante
-[instagram]: https://instagram.com/r6click
-[linkedin]: https://linkedin.com/in/theniilante
-[niilante]: https://linkedin.com/in/theniilante
-
-
-
-![](https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=niilante&theme=github_dark)
-![](https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=niilante&theme=github_dark)
-![](https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=niilante&theme=github_dark)
-![](https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=niilante&theme=github_dark)
-![](https://github-profile-summary-cards.vercel.app/api/cards/stats?username=niilante&theme=github_dark)
-
+Accra, Ghana · GMT · every graphic here is a hand-drawn SVG, drawn and refreshed by [one Node script](scripts/generate.mjs) with no dependencies.
