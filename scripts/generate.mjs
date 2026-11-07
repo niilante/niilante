@@ -202,7 +202,7 @@ function terminalCard(data, th, mode) {
     cursorX.push([appear, X0 + PL * CW]);
     cursorY.push([appear, y - FS + 3]);
     if (step.cmd) {
-      const n = step.cmd.length, start = appear + 0.45, dt = 0.08;
+      const n = step.cmd.length, start = appear + 0.25, dt = 0.055;
       const id = `c${si}`;
       const frames = [[0, 0]];
       for (let i = 1; i <= n; i++) frames.push([start + i * dt, (i * CW).toFixed(1)]);
@@ -210,7 +210,7 @@ function terminalCard(data, th, mode) {
         + `${discrete('width', frames, T)}</rect></clipPath>`;
       body += `<text x="${X0 + PL * CW}" y="${y}" fill="${th.text}" clip-path="url(#${id})" xml:space="preserve">${esc(step.cmd)}</text>`;
       for (let i = 1; i <= n; i++) cursorX.push([start + i * dt, X0 + (PL + i) * CW]);
-      t = start + n * dt + 0.4;
+      t = start + n * dt + 0.3;
     }
     body += '</g>';
     row++;
@@ -218,11 +218,13 @@ function terminalCard(data, th, mode) {
       body += `<text x="${X0}" y="${lineY(row)}" xml:space="preserve" opacity="1">`
         + `${discrete('opacity', [[0, 0], [t, 1]], T)}${spans(out)}</text>`;
       row++;
-      t += 0.1;
+      t += 0.06;
     }
-    t += 0.85;
+    t += 0.45;
   });
-  if (t > T - 6) throw new Error(`terminal timeline too long (${t.toFixed(1)}s)`);
+  // Keep most of the loop in the finished state: a visitor who lands mid-cycle
+  // should still see the whole card, not an empty terminal.
+  if (t > T - 12) throw new Error(`terminal timeline too long (${t.toFixed(1)}s of ${T}s)`);
 
   const byT = (a) => a.sort((p, q) => p[0] - q[0]);
   body += `<rect x="${cursorX[cursorX.length - 1][1]}" y="${cursorY[cursorY.length - 1][1]}" width="${CW}" height="${FS + 3}" fill="${th.gold}">`
