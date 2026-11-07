@@ -4,6 +4,7 @@
 </picture>
 
 hi, I'm Richard.
+
 I'm a technical founder in Accra. I build **[Typeres](https://typeres.com)** — print ordering that runs from artwork to delivery — and I co-founded **[AiMlCamp](https://github.com/aimlcamp)**, a community of AI/ML builders in Ghana. I'm also in **[Ghana NLP](https://github.com/ghananlp)**, working on open language technology for Twi, Ewe, Ga and Dagbani.
 
 Most of what I ship lives behind a login where nobody can see it, so this page is the receipt: what exists, what it does, and what I haven't proven yet.
@@ -18,6 +19,7 @@ Most of what I ship lives behind a login where nobody can see it, so this page i
     <img alt="Typeres: print ordering that runs from artwork to delivery, for Ghanaian print vendors and their clients" src="assets/typeres-light.svg" width="100%">
   </picture>
 </a>
+
 Getting flyers, shirts or banners printed in Ghana usually means artwork over WhatsApp, prices over the phone, and hoping the job that comes back is the job you asked for.
 Typeres turns that into a pipeline: upload artwork, get a price, pick a verified vendor, then watch the job move through **brief → proof → payment held → delivery**, with the file, the approval and the courier attached to the same order.
 It's the product my own engineering rules get applied to first. **[typeres.com](https://typeres.com)**
