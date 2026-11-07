@@ -1,11 +1,11 @@
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/terminal-dark.svg">
-  <img alt="Terminal: whoami prints Richard Nii Lante Lawson, technical founder at Typeres, co-founder of AiMlCamp, Accra, Ghana" src="assets/terminal-light.svg" width="100%">
+  <img alt="Terminal: whoami prints Richard Nii Lante Lawson, co-founder of TypeRes, Varelynt, SoloArena, AiMlCamp and withNiiLante, Accra, Ghana" src="assets/terminal-light.svg" width="100%">
 </picture>
 
 hi, I'm Richard.
 
-I'm a technical founder in Accra. I build **[Typeres](https://typeres.com)** — print ordering that runs from artwork to delivery — and I co-founded **[AiMlCamp](https://github.com/aimlcamp)**, a community of AI/ML builders in Ghana. I'm also in **[Ghana NLP](https://github.com/ghananlp)**, working on open language technology for Twi, Ewe, Ga and Dagbani.
+I'm a technical founder in Accra, and a co-founder of **[TypeRes](https://typeres.com)**, **[Varelynt](https://varelynt.com)**, **[SoloArena](https://soloarena.com)**, **AiMlCamp** and **withNiiLante**. I'm also in **[Ghana NLP](https://github.com/ghananlp)**, on open language technology for Twi, Ewe, Ga and Dagbani.
 
 Most of what I ship lives behind a login where nobody can see it, so this page is the receipt: what exists, what it does, and what I haven't proven yet.
 
@@ -16,27 +16,36 @@ Most of what I ship lives behind a login where nobody can see it, so this page i
 <a href="https://typeres.com">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="assets/typeres-dark.svg">
-    <img alt="Typeres: print ordering that runs from artwork to delivery, for Ghanaian print vendors and their clients" src="assets/typeres-light.svg" width="100%">
+    <img alt="TypeRes: event, print and business essentials marketplace — everything you need to make it happen" src="assets/typeres-light.svg" width="100%">
   </picture>
 </a>
 
-Getting flyers, shirts or banners printed in Ghana usually means artwork over WhatsApp, prices over the phone, and hoping the job that comes back is the job you asked for.
-Typeres turns that into a pipeline: upload artwork, get a price, pick a verified vendor, then watch the job move through **brief → proof → payment held → delivery**, with the file, the approval and the courier attached to the same order.
-It's the product my own engineering rules get applied to first. **[typeres.com](https://typeres.com)**
+TypeRes is the one I'm closest to: **Ghana's marketplace for event, print and business essentials**. Three collections — **Events**, **Print & Brand**, **Business** — because the same person buying canopies for a wedding is buying shirts for a team and bottles for a shop, and in Ghana that usually means three different WhatsApp threads and three different prices.
+The marketplace is built. The pilot is Kumasi. Everything below is what I insist on before it goes live. **[typeres.com](https://typeres.com)**
 
 <br>
 
-### Community work
+### The other things I co-founded
 
 <p>
-  <a href="https://github.com/ghananlp"><picture>
-    <source media="(prefers-color-scheme: dark)" srcset="assets/tile-ghananlp-dark.svg">
-    <img alt="Ghana NLP: open-source language technology for Ghanaian languages" src="assets/tile-ghananlp-light.svg" width="49%">
+  <a href="https://varelynt.com"><picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/tile-varelynt-dark.svg">
+    <img alt="Varelynt: creator campaigns with proof built in — terms, delivery, performance and payout in one record" src="assets/tile-varelynt-light.svg" width="49%">
   </picture></a>
+  <a href="https://soloarena.com"><picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/tile-soloarena-dark.svg">
+    <img alt="SoloArena: one-on-one basketball in Ghana, with verified player data and tournaments" src="assets/tile-soloarena-light.svg" width="49%">
+  </picture></a>
+</p>
+<p>
   <a href="https://github.com/aimlcamp"><picture>
     <source media="(prefers-color-scheme: dark)" srcset="assets/tile-aimlcamp-dark.svg">
     <img alt="AiMlCamp: a community of AI and ML builders in Ghana" src="assets/tile-aimlcamp-light.svg" width="49%">
   </picture></a>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/tile-withniilante-dark.svg">
+    <img alt="withNiiLante: TikTok and the other social channels where the work gets explained" src="assets/tile-withniilante-light.svg" width="49%">
+  </picture>
 </p>
 
 <br>
@@ -65,7 +74,7 @@ Laravel and Livewire do most of the work. Everything else shows up when the job 
 
 ### This year, itemised
 
-Nearly every contribution I make lands in a private repository — a product, its tests, its tickets. The public commit count has never been the interesting number.
+Nearly every contribution I make lands in a private repository — a product, its tests, its tickets, five ventures. The public commit count has never been the interesting number.
 
 <p align="center">
   <picture>

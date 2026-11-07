@@ -30,7 +30,6 @@ const STATIC = process.argv.includes('--static');
 const OUT = STATIC ? path.join(ROOT, '.preview') : ASSETS;
 
 const USER = 'niilante';
-const TYPERES = 'https://typeres.com';
 
 const log = (...a) => console.log('[profile]', ...a);
 
@@ -161,7 +160,7 @@ const THEMES = {
 function terminalCard(data, th, mode) {
   const W = 1000, FS = 16, CW = FS * 0.6, LH = 27, X0 = 28, Y0 = 82;
   const g = data.gh || {};
-  const prompt = [['richard', th.green], ['@', th.muted], ['accra', th.blue], [':', th.muted], ['~', th.violet], ['$ ', th.muted]];
+  const prompt = [['niilante', th.green], ['@', th.muted], ['accra', th.blue], [':', th.muted], ['~', th.violet], ['$ ', th.muted]];
   const PL = prompt.reduce((n, [s]) => n + s.length, 0);
 
   const stats = `${num(g.contributionsYear)} contributions this year`;
@@ -171,10 +170,11 @@ function terminalCard(data, th, mode) {
   const script = [
     { cmd: 'whoami', out: [
       [['Richard Nii Lante Lawson', th.text, 700]],
-      [['technical founder @ ', th.text], ['Typeres', th.goldText, 700], ['  ·  co-founder @ ', th.text], ['AiMlCamp', th.goldText, 700], ['  ·  Accra, Ghana', th.text]],
+      [['co-founder @ ', th.text], ['TypeRes', th.goldText, 700], [' · ', th.muted], ['Varelynt', th.goldText, 700], [' · ', th.muted], ['SoloArena', th.goldText, 700]],
+      [['               ', th.text], ['AiMlCamp', th.goldText, 700], [' · ', th.muted], ['withNiiLante', th.goldText, 700], [' · Accra, Ghana', th.text]],
     ] },
     { cmd: 'ls', out: [
-      [['typeres/', th.goldText, 700], ['   ghananlp/', th.blue, 700], ['   aimlcamp/', th.blue, 700], ['   client-work/', th.blue, 700]],
+      [['typeres/', th.goldText, 700], ['   varelynt/', th.blue, 700], ['   soloarena/', th.blue, 700], ['   withniilante/', th.blue, 700], ['   aimlcamp/', th.blue, 700]],
     ] },
     { cmd: 'cat north-star.txt', out: [
       [['Build for Ghana first. Prove it with evidence. Name what you did not verify.', th.muted]],
@@ -232,26 +232,25 @@ function terminalCard(data, th, mode) {
     + '<animate attributeName="opacity" values="1;1;0;0" keyTimes="0;0.5;0.5;1" dur="1.1s" repeatCount="indefinite"/></rect>';
 
   const style = css({ inter: false, extra: `text{font-family:${MONO};font-size:${FS}px;}` });
-  let s = svgOpen(W, H, `Terminal: whoami prints Richard Nii Lante Lawson, technical founder at Typeres, co-founder of AiMlCamp, Accra, Ghana`, style);
+  let s = svgOpen(W, H, `Terminal: whoami prints Richard Nii Lante Lawson, co-founder of TypeRes, Varelynt, SoloArena, AiMlCamp and withNiiLante, Accra, Ghana`, style);
   s += `<rect x="0.5" y="0.5" width="${W - 1}" height="${H - 1}" rx="14" fill="${th.termBg}" stroke="${th.border}"/>`;
   s += `<path d="M0.5 44V14.5A14 14 0 0 1 14.5 0.5H${W - 14.5}A14 14 0 0 1 ${W - 0.5} 14.5V44Z" fill="${th.termBar}" stroke="${th.border}"/>`;
   s += ['#ff5f57', '#febc2e', '#28c840'].map((c, i) => `<circle cx="${26 + i * 20}" cy="22" r="6" fill="${c}"/>`).join('');
-  s += `<text x="${W / 2}" y="27" text-anchor="middle" fill="${th.muted}" style="font-size:13px">richard@accra: ~ (zsh)</text>`;
+  s += `<text x="${W / 2}" y="27" text-anchor="middle" fill="${th.muted}" style="font-size:13px">niilante@accra: ~ (zsh)</text>`;
   s += `<text x="${W - 24}" y="27" text-anchor="end" fill="${th.faint}" style="font-size:12px">${fmtDate(data.generatedAt)}</text>`;
   return s + body + '</svg>';
 }
 
-// ---------------------------------------------------------------- 2. typeres
+// ---------------------------------------------------------------- 2. TypeRes
 
-function printerGlyph(x, y, color, faint) {
-  // a small printer: body, paper going in on top, sheet coming out at the front
+function bagGlyph(x, y, color, faint) {
+  // a market bag: handle, body, and a folded lip. Reads as "marketplace", not "print shop".
   return `<g transform="translate(${x},${y})">`
-    + `<rect x="4" y="0" width="30" height="14" rx="2" fill="${faint}"/>`
-    + `<rect x="0" y="16" width="38" height="22" rx="4" fill="${color}"/>`
-    + `<rect x="26" y="20" width="6" height="3" rx="1.5" fill="${faint}"/>`
-    + `<rect x="8" y="30" width="22" height="16" rx="2" fill="${faint}" fill-opacity="0.4"/>`
-    + `<rect x="12" y="35" width="14" height="1.6" rx="0.8" fill="${color}"/>`
-    + `<rect x="12" y="39" width="9" height="1.6" rx="0.8" fill="${color}"/>`
+    + `<path d="M8 14V10a10 10 0 0 1 20 0v4" fill="none" stroke="${faint}" stroke-width="3.2" stroke-linecap="round"/>`
+    + `<path d="M2 16h32l-3.2 30a6 6 0 0 1-6 5.4H11.2a6 6 0 0 1-6-5.4z" fill="${color}"/>`
+    + `<path d="M2 16h32l-.6 5.6H2.6z" fill="${faint}" fill-opacity="0.35"/>`
+    + `<rect x="11" y="28" width="14" height="2.4" rx="1.2" fill="${faint}" fill-opacity="0.55"/>`
+    + `<rect x="11" y="34" width="9" height="2.4" rx="1.2" fill="${faint}" fill-opacity="0.35"/>`
     + '</g>';
 }
 
@@ -263,71 +262,50 @@ function typeresCard(data, mode, th) {
     : { bg1: '#f8fbf8', bg2: '#eef5ef', border: '#d5e3d8', text: '#0f1a12', muted: '#4d6355', faint: '#8ba393',
         accent: '#0f8a34', accentText: '#0b6b28', gold: '#9a6700', chip: '#ffffff', chipBorder: '#d5e3d8' };
 
-  const W = 1000, H = 306;
-  const label = 'Typeres: print ordering that runs from artwork to delivery, for Ghanaian print vendors and their clients';
+  const W = 1000, H = 322;
+  const label = 'TypeRes: the Ghanaian marketplace for event, print and business essentials — everything you need to make it happen';
   let s = svgOpen(W, H, label, css({ mono: true }));
   s += `<defs><linearGradient id="tbg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="${c.bg1}"/><stop offset="1" stop-color="${c.bg2}"/></linearGradient>`
     + `<radialGradient id="tglow" cx="0.1" cy="0.15" r="0.55"><stop offset="0" stop-color="${c.accent}" stop-opacity="${dark ? 0.14 : 0.1}"/><stop offset="1" stop-color="${c.accent}" stop-opacity="0"/></radialGradient></defs>`;
   s += `<rect width="${W}" height="${H}" rx="22" fill="url(#tbg)"/><rect width="${W}" height="${H}" rx="22" fill="url(#tglow)"/>`;
   s += `<rect x="1.5" y="1.5" width="${W - 3}" height="${H - 3}" rx="20.5" fill="none" stroke="${c.border}" stroke-width="3"/>`;
 
-  s += printerGlyph(56, 58, c.accent, c.muted);
-  s += `<text class="i" x="118" y="88" font-size="46" font-weight="800" letter-spacing="-1.6"><tspan fill="${c.text}">Type</tspan><tspan fill="${c.accentText}">res</tspan></text>`;
-  s += `<text class="i" x="120" y="116" font-size="15.5" font-weight="600" fill="${c.muted}">Run print projects from artwork to delivery.</text>`;
+  s += `<text class="m" x="56" y="46" font-size="10.5" font-weight="500" letter-spacing="1.1" fill="${c.accentText}">EVENT, PRINT &amp; BUSINESS ESSENTIALS MARKETPLACE</text>`;
+  s += bagGlyph(56, 66, c.accent, c.muted);
+  s += `<text class="i" x="118" y="104" font-size="46" font-weight="800" letter-spacing="-1.6"><tspan fill="${c.text}">Type</tspan><tspan fill="${c.accentText}">Res</tspan></text>`;
+  s += `<text class="i" x="120" y="132" font-size="16" font-weight="600" fill="${c.muted}">Everything you need to make it happen.</text>`;
 
-  // link pill
-  s += `<g transform="translate(${W - 186},38)"><rect width="150" height="32" rx="16" fill="${c.chip}" stroke="${c.chipBorder}"/>`
+  s += `<g transform="translate(${W - 200},38)"><rect width="164" height="32" rx="16" fill="${c.chip}" stroke="${c.chipBorder}"/>`
     + `<circle cx="19" cy="16" r="4.5" fill="${c.accent}"><animate attributeName="opacity" values="1;0.3;1" dur="2.6s" repeatCount="indefinite"/></circle>`
-    + `<text class="m" x="34" y="20.5" font-size="12.5" font-weight="500" fill="${c.accentText}">typeres.com</text></g>`;
+    + `<text class="m" x="34" y="20.5" font-size="12" font-weight="500" fill="${c.accentText}">pre-launch · Kumasi</text></g>`;
 
-  // pipeline
-  const stages = [
-    { name: 'brief', state: 'artwork in', done: true },
-    { name: 'proof', state: 'approved', done: true },
-    { name: 'payment', state: 'held', done: false, active: true },
-    { name: 'delivery', state: 'queued', done: false },
-    { name: 'done', state: 'signed off', done: false },
+  const cols = [
+    { n: '01', name: 'EVENTS', a: 'the celebration itself —', b: 'everything the day needs' },
+    { n: '02', name: 'PRINT & BRAND', a: 'shirts, banners, engraving', b: 'and branded products' },
+    { n: '03', name: 'BUSINESS', a: 'packaging, bottles and', b: 'the stock you sell' },
   ];
-  const x0 = 76, step = 132, railY = 186;
-  s += `<text class="m" x="${x0}" y="152" font-size="10.5" font-weight="500" letter-spacing="0.9" fill="${c.muted}">HOW A JOB MOVES</text>`;
-  s += `<line x1="${x0 + 11}" y1="${railY}" x2="${x0 + (stages.length - 1) * step + 11}" y2="${railY}" stroke="${c.chipBorder}" stroke-width="2"/>`;
-  s += `<line x1="${x0 + 11}" y1="${railY}" x2="${x0 + step + 11}" y2="${railY}" stroke="${c.accent}" stroke-width="2" stroke-opacity="0.75"/>`;
-  stages.forEach((st, i) => {
-    const x = x0 + i * step + 11;
-    if (st.done) {
-      s += `<circle cx="${x}" cy="${railY}" r="8" fill="${c.accent}"/>`
-        + `<path d="M${x - 3.6} ${railY} l2.6 2.7 l4.6 -5.4" fill="none" stroke="${c.bg2}" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>`;
-    } else if (st.active) {
-      s += `<circle cx="${x}" cy="${railY}" r="8" fill="${c.bg1}" stroke="${c.gold}" stroke-width="2.5"/>`
-        + `<circle cx="${x}" cy="${railY}" r="3.2" fill="${c.gold}"><animate attributeName="opacity" values="1;0.25;1" dur="2s" repeatCount="indefinite"/></circle>`;
-    } else {
-      s += `<circle cx="${x}" cy="${railY}" r="8" fill="${c.bg1}" stroke="${c.chipBorder}" stroke-width="2.5"/>`;
-    }
-    s += `<text class="i" x="${x}" y="${railY + 30}" text-anchor="middle" font-size="13" font-weight="700" fill="${st.done || st.active ? c.text : c.muted}">${esc(st.name)}</text>`;
-    s += `<text class="m" x="${x}" y="${railY + 47}" text-anchor="middle" font-size="10.5" fill="${st.done ? c.accentText : st.active ? c.gold : c.faint}">${esc(st.state)}</text>`;
+  const pw = 288, gap = 20, px0 = (W - (pw * 3 + gap * 2)) / 2, py = 168, ph = 100;
+  cols.forEach((col, i) => {
+    const x = px0 + i * (pw + gap);
+    s += `<rect x="${x}" y="${py}" width="${pw}" height="${ph}" rx="14" fill="${c.chip}" stroke="${c.chipBorder}"/>`;
+    s += `<text class="m" x="${x + 20}" y="${py + 28}" font-size="10.5" fill="${c.faint}">${col.n}</text>`;
+    s += `<text class="m" x="${x + 44}" y="${py + 28}" font-size="11.5" font-weight="600" letter-spacing="0.7" fill="${c.text}">${esc(col.name)}</text>`;
+    s += `<text class="i" x="${x + 20}" y="${py + 58}" font-size="12.8" fill="${c.muted}">${esc(col.a)}</text>`;
+    s += `<text class="i" x="${x + 20}" y="${py + 76}" font-size="12.8" fill="${c.muted}">${esc(col.b)}</text>`;
   });
 
-  // what it removes
-  const rx = 690;
-  s += `<text class="m" x="${rx}" y="152" font-size="10.5" font-weight="500" letter-spacing="0.9" fill="${c.muted}">WHAT IT TAKES OFF YOUR DESK</text>`;
-  ['artwork scattered across WhatsApp', 'quotes chased over the phone', 'nobody sure who has the job'].forEach((line, i) => {
-    const y = 178 + i * 26;
-    s += `<path d="M${rx} ${y - 4} h10" stroke="${c.accent}" stroke-width="2" stroke-linecap="round"/>`;
-    s += `<text class="i" x="${rx + 20}" y="${y}" font-size="13" fill="${c.text}">${esc(line)}</text>`;
-  });
-
-  s += `<text class="m" x="56" y="${H - 22}" font-size="11.5" fill="${c.faint}">vendors are verified before they can quote · one codebase, built end to end</text>`;
+  s += `<text class="m" x="56" y="${H - 22}" font-size="11.5" fill="${c.faint}">Ghana first · one codebase, built end to end · verified vendors only</text>`;
   s += `<text class="m" x="${W - 56}" y="${H - 22}" text-anchor="end" font-size="11.5" font-weight="500" fill="${c.accentText}">typeres.com  →</text>`;
   return s + '</svg>';
 }
 
 // ---------------------------------------------------------------- 3. community tiles
 
-function tile({ title, role, lines, footer, glyph }, th) {
+function tile({ title, role, lines, footer, glyph, tag = 'VENTURE' }, th) {
   const W = 480, H = 238;
   let s = svgOpen(W, H, `${title}: ${lines.join(' ')}`, css({}));
   s += `<rect x="0.5" y="0.5" width="${W - 1}" height="${H - 1}" rx="18" fill="${th.surface}" stroke="${th.border}"/>`;
-  s += `<text class="m" x="28" y="40" font-size="10.5" font-weight="500" letter-spacing="0.9" fill="${th.goldText}">COMMUNITY</text>`;
+  s += `<text class="m" x="28" y="40" font-size="10.5" font-weight="500" letter-spacing="0.9" fill="${th.goldText}">${esc(tag)}</text>`;
   const cw = role.length * 7.3 + 26;
   s += `<g transform="translate(${W - 28 - cw},24)"><rect width="${cw}" height="24" rx="12" fill="none" stroke="${th.border}"/>`
     + `<text class="m" x="${cw / 2}" y="16" text-anchor="middle" font-size="10.5" font-weight="500" letter-spacing="0.6" fill="${th.muted}">${esc(role)}</text></g>`;
@@ -347,6 +325,34 @@ function glyphLetters(x, y, th) {
     + `<path d="M0 0h52a10 10 0 0 1 10 10v26a10 10 0 0 1-10 10H26l-12 10v-10H0a0 0 0 0 1 0 0z" fill="none" stroke="${th.border}" stroke-width="2"/>`
     + `<text class="m" x="14" y="30" font-size="17" font-weight="700" fill="${th.goldText}">a</text>`
     + `<text class="m" x="31" y="30" font-size="17" font-weight="700" fill="${th.muted}">ɛ</text>`
+    + '</g>';
+}
+
+// a document with a tick: proof of work
+function glyphProof(x, y, th) {
+  return `<g transform="translate(${x},${y})">`
+    + `<rect x="0" y="0" width="42" height="52" rx="5" fill="none" stroke="${th.border}" stroke-width="2"/>`
+    + `<path d="M10 16h22M10 24h22M10 32h13" stroke="${th.faint}" stroke-width="2" stroke-linecap="round"/>`
+    + `<circle cx="34" cy="40" r="11" fill="none" stroke="${th.muted}" stroke-width="2"/>`
+    + `<path d="M29.5 40l3 3.2 5.4-6" fill="none" stroke="${th.goldText}" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>`
+    + '</g>';
+}
+
+// a basketball: the one-on-one court
+function glyphBall(x, y, th) {
+  return `<g transform="translate(${x},${y})">`
+    + `<circle cx="26" cy="26" r="25" fill="none" stroke="${th.border}" stroke-width="2"/>`
+    + `<path d="M26 1v50" fill="none" stroke="${th.muted}" stroke-width="1.8"/>`
+    + `<path d="M26 1c-13 7-13 43 0 50M26 1c13 7 13 43 0 50" fill="none" stroke="${th.muted}" stroke-width="1.8"/>`
+    + '</g>';
+}
+
+// a play mark: the media side
+function glyphPlay(x, y, th) {
+  return `<g transform="translate(${x},${y})">`
+    + `<rect x="0" y="0" width="52" height="42" rx="9" fill="none" stroke="${th.border}" stroke-width="2"/>`
+    + `<path d="M20 13l16 8-16 8z" fill="none" stroke="${th.goldText}" stroke-width="2.2" stroke-linejoin="round"/>`
+    + `<circle cx="9" cy="9" r="2" fill="${th.faint}"/><circle cx="43" cy="33" r="2" fill="${th.faint}"/>`
     + '</g>';
 }
 
@@ -472,19 +478,35 @@ for (const mode of ['light', 'dark']) {
   const th = THEMES[mode];
   write(`terminal-${mode}.svg`, terminalCard(data, th, mode));
   write(`typeres-${mode}.svg`, typeresCard(data, mode, th));
-  write(`tile-ghananlp-${mode}.svg`, tile({
-    title: 'Ghana NLP',
-    role: 'MEMBER',
-    lines: ['Open-source language technology for Ghanaian languages —', 'speech, translation and voice benchmarks for Twi, Ewe,', 'Ga and Dagbani. 78 public repositories.'],
-    footer: 'ghananlp.org',
-    glyph: glyphLetters,
+  write(`tile-varelynt-${mode}.svg`, tile({
+    title: 'Varelynt',
+    role: 'CO-FOUNDER',
+    lines: ['Creator campaigns with proof built in —', 'campaign terms, published work, performance', 'and payout in one record both sides trust.'],
+    footer: 'varelynt.com',
+    glyph: glyphProof,
+  }, th));
+  write(`tile-soloarena-${mode}.svg`, tile({
+    title: 'SoloArena',
+    role: 'CO-FOUNDER',
+    lines: ['One ball, two players, one court —', "Ghana's one-on-one basketball, with verified", 'player data and tournaments behind it.'],
+    footer: 'soloarena.com',
+    glyph: glyphBall,
   }, th));
   write(`tile-aimlcamp-${mode}.svg`, tile({
     title: 'AiMlCamp',
     role: 'CO-FOUNDER',
+    tag: 'COMMUNITY',
     lines: ['A community of AI and ML builders in Ghana —', 'teaching, learning and shipping together', 'since 2020.'],
     footer: 'aimlcamp.org',
     glyph: glyphTent,
+  }, th));
+  write(`tile-withniilante-${mode}.svg`, tile({
+    title: 'withNiiLante',
+    role: 'CO-FOUNDER',
+    tag: 'MEDIA',
+    lines: ['TikTok and the other social channels —', 'the work explained to the people who', 'actually have to use it.'],
+    footer: 'TikTok · Instagram · X',
+    glyph: glyphPlay,
   }, th));
   write(`rules-${mode}.svg`, rulesCard(data, th));
   write(`stack-${mode}.svg`, stackCard(data, th));
